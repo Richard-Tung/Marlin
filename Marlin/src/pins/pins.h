@@ -669,6 +669,8 @@
   #include "stm32f4/pins_FYSETC_S6_V2_0.h"      // STM32F4                                env:FYSETC_S6 env:FYSETC_S6_8000
 #elif MB(FYSETC_SPIDER)
   #include "stm32f4/pins_FYSETC_SPIDER.h"       // STM32F4                                env:FYSETC_S6 env:FYSETC_S6_8000
+#elif MB(FYSETC_SPIDER_USER)
+  #include "stm32f4/pins_FYSETC_SPIDER_USER.h"  // STM32F4                                env:FYSETC_S6 env:FYSETC_S6_8000
 #elif MB(FYSETC_SPIDER_V2_2)
   #include "stm32f4/pins_FYSETC_SPIDER_V2_2.h"  // STM32F4                                env:FYSETC_S6 env:FYSETC_S6_8000
 #elif MB(FLYF407ZG)
